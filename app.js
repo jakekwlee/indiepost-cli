@@ -7,8 +7,8 @@ program
   .version('0.0.1')
   .description('Indiepost command-line interface')
   .usage('<option>')
-  .option('future', 'Get scheduled posts')
-  .option('post-images <post-id>', 'Get all images on specific post')
+  .option('future', 'get scheduled posts')
+  .option('post-images <post-id>', 'get all images on specific post')
   .parse(process.argv);
 
 if (program.future) {
