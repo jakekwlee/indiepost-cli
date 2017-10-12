@@ -2,12 +2,12 @@
   "name": "indiepost-cli",
   "version": "0.0.1",
   "description": "Indiepost command-line interface",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "indiepost-cli": "./bin/indiepost-cli"
   },
   "bin": {
-    "indiepost": "./bin/app.js"
+    "indiepost": "./app.js"
   },
   "author": "Jake Lee <sysadmin@indiepost.co.kr>",
   "license": "ISC",

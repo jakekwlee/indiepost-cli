@@ -1,6 +1,7 @@
 #!/usr/bin/env node
+
 const program = require('commander');
-const { getImagesOnPost, getScheduledPosts } = require('../src/actions/index');
+const { getImagesOnPost, getScheduledPosts } = require('./src/actions/index');
 
 program
   .version('0.0.1')
