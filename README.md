@@ -2,13 +2,14 @@
 Indiepost command-line interface.
 
 $ npm install
+
 $ sudo npm link
 
-  Usage: indiepost <option>
-  
-  Options:
+Usage: indiepost &lt;option&gt;
+
+Options:
 
     -V, --version          output the version number
-    future                 Get scheduled posts
-    post-images <post-id>  Get all images on specific post
+    future                 get scheduled posts
+    post-images <post-id>  get all images on specific post
     -h, --help             output usage information
