@@ -34,6 +34,7 @@ const normalizeImageSet = (imageSet, isTitleImage = false) => {
 };
 
 const simplifyPost = (post) => ({
+  id: post.id,
   url: HOME_URL + '/post/' + post.id,
   title: post.title,
   publishAt: moment(post.publishedAt).format('YYYY/MM/DD HH:mm'),
