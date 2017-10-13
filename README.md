@@ -1,13 +1,24 @@
 # indiepost-cli
-Indiepost command-line interface.
+### Indiepost command-line interface.
 
-$ npm install
+## Installation:
 
-$ sudo npm link
+    $ git clone git@github.com:jakekwlee/indiepost-cli.git
+    
+    $ cd indiepost-cli
+    
+    $ npm install
+    
+    $ npm link      // You might need to provide administrator permission
 
-Usage: indiepost &lt;option&gt;
+## Usage: 
+    
+    $ indiepost <option>
+## Or:
 
-Options:
+    $ ./app.js <option> 
+
+## Options:
 
     -V, --version          output the version number
     future                 get scheduled posts
