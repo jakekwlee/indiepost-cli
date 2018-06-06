@@ -4,7 +4,7 @@ const program = require('commander');
 const { getImagesOnPost, getScheduledPosts } = require('./src/actions/index');
 
 program
-  .version('0.0.1')
+  .version('1.0.0')
   .description('Indiepost command-line interface')
   .usage('<option>')
   .option('future', 'get scheduled posts')

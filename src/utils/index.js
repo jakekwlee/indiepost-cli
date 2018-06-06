@@ -1,6 +1,5 @@
 const moment = require('moment');
 const { HOME_URL, CDN_URL } = require('../constants');
-const api = require('../api');
 
 const normalizeImage = (image) => {
   const { filePath, sizeType } = image;

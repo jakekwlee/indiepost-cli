@@ -1,6 +1,6 @@
 {
   "name": "indiepost-cli",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Indiepost command-line interface",
   "main": "app.js",
   "scripts": {
